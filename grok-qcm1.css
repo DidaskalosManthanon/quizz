@@ -1,0 +1,114 @@
+/* Réinitialisation et base responsive */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    padding: 1rem;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    text-align: center;
+    font-family: "American Typewriter", Monaco, monospace;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+h2 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-family: Impact, Georgia;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+/* Conteneurs principaux */
+.qcm-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.qcm-category {
+    margin-bottom: 3rem;
+}
+
+/* Cartes de questions */
+.question-card {
+    width: 90%;
+    max-width: 800px;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+}
+
+.question-card p {
+    margin-bottom: 1rem;
+}
+
+.question-card strong {
+    color: #d32f2f;
+}
+
+/* Options de réponse */
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin: 0.75rem 0;
+}
+
+.option input {
+    margin-right: 0.5rem;
+}
+
+.option label {
+    font-family: Verdana, sans-serif;
+    color: #555;
+}
+
+/* Accessibilité : cacher visuellement mais garder accessible */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Media Queries pour mobiles */
+@media (max-width: 600px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    .question-card {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .option {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .option input {
+        margin-bottom: 0.25rem;
+    }
+}

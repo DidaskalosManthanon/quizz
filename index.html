@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCMs</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <header>
+        <h1>QCMs de mathématiques (niveau 3<sup>ème</sup> - 2<sup>de</sup>)</h1>
+    </header>
+
+    <main>
+        <section class="quiz">
+           <article id="geometrie">
+            <h2>Géométrie</h2>
+                <ol start="1">
+                    <li class="question" data-points="1" data-type="radio">
+                        <p>
+                            <strong>Question :</strong> 
+                            On considère un carré de côté 5. Quelle est la longueur de sa diagonale ?
+                            <br><strong><em>Une</em> seule <em>réponse</em> est <em>correcte</em>.</strong>
+                        </p>
+                        <ul class="options">
+                            <li>
+                                <label><input type="radio" name="q1"> \(2\sqrt{5}\)</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="q1"> \(\sqrt{5 \times 2}\)</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="q1"> \(\sqrt{2 \times 5}\)</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="q1" data-correct> \(5\sqrt{2}\)</label>
+                            </li>
+                        </ul>      
+                    </li>
+                    <li class="question" data-points="1" data-type="radio">
+                        <p>
+                            <strong>Question :</strong> 
+                            On considère un triangle équilatéral de côté 7. Quelle est la longueur de sa hauteur ?
+                            <br><strong><em>Une</em> seule <em>réponse</em> est <em>correcte</em>.</strong>
+                        </p>
+                        <ul class="options">
+                            <li>
+                                <label><input type="radio" name="q2"> \(\frac{2}{\sqrt{7}}\)</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="q2"> \(\sqrt{7} \times \frac{\sqrt{3}}{2}\)</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="q2" data-correct> \(7 \times \frac{\sqrt{3}}{2}\)</label>
+                            </li>
+                            <li>
+                                <label><input type="radio" name="q2"> \(7 \times \frac{\sqrt{2}}{3}\)</label>
+                            </li>
+                        </ul>
+                        
+                    </li>
+                    <li class="question" data-points="2" data-type="checkbox">
+                        <p>
+                            <strong>Question :</strong>
+                            On considère un carré de côté 11. 
+                            Quelle est son aire ?
+                            <br><strong><em>Plusieurs réponses</em> sont <em>correctes</em>.</strong>
+                        </p>
+                        <ul class="options">
+
+                            <li>
+                                <label><input id="q3-r1" type="checkbox" name="q3"/> \(4\times 11\)</label>
+                            </li>
+                            
+                            <li>
+                                <label><input id="q3-r2" type="checkbox" name="q3"/> \(4\times 121\)</label>   
+                            </li>
+                            
+                            <li>
+                                <label><input id="q3-r3" type="checkbox" name="q3" data-correct/> \(121\)</label>    
+                            </li>
+                            
+                            <li>
+                                <label><input id="q3-r2" type="checkbox" name="q3" data-correct/> \(11^{2}\)</label>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    <li class="question" data-points="2" data-type="checkbox">
+                        <p>
+                            <strong>Question :</strong>
+                            On considère un triangle équilatéral de côté 3. 
+                            Quelle est son aire ?
+                            <br><strong><em>Plusieurs réponses</em> sont <em>correctes</em>.</strong>
+                        </p>
+                        <ul class="options">
+
+                            <li>
+                                <label><input id="q4-r1" type="checkbox" name="q4"/> \(4\times \sqrt{3}\)</label>
+                            </li>
+                            
+                            <li>
+                                <label><input id="q4-r2" type="checkbox" name="q4" data-correct/> \(\dfrac{3\times \sqrt{3}}{4}\)</label>
+                            </li>
+                            
+                            <li>
+                                <label><input id="q4-r3" type="checkbox" name="q4" data-correct/> \(\dfrac{3\times \dfrac{\sqrt{3}}{2}}{2}\)</label>
+                            </li>
+                            
+                            <li>
+                                <label><input id="q4-r2" type="checkbox" name="q4"/> \(\sqrt{48}\)</label>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                </ol>
+           </article> 
+
+           <article id="trigonometrie">
+            <h2>Trigonométrie</h2>
+            <ol start="5">
+                <li class="question" data-points="1" data-type="radio">
+                    <p>
+                        <strong>Question :</strong>
+                        Quelle est la valeur exacte de \(\cos(45°)\) ? 
+                        <br><strong><em>Une</em> seule <em>réponse</em> est <em>correcte</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label><input id="q5-r1" type="radio" name="q5"/> \(2\sqrt{2}\)</label>
+                        </li>
+                        
+                        <li>
+                            <label><input id="q5-r2" type="radio" name="q5"/> \(\dfrac{2}{\sqrt{2}}\)</label>
+                        </li>
+                        
+                        <li>
+                            <label><input id="q5-r3" type="radio" name="q5" data-correct/> \(\dfrac{\sqrt{2}}{2}\)</label>
+                        </li>
+
+                        <li>
+                            <label><input id="q5-r2" type="radio" name="q5"/> \(\dfrac{1}{2\sqrt{2}}\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="question" data-points="1" data-type="radio">
+                    <p>
+                        <strong>Question :</strong>
+                        Quelle est la valeur exacte de \(\sin(45°)\) ? 
+                        <br><strong><em>Une</em> seule <em>réponse</em> est <em>correcte</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label><input id="q6-r1" type="radio" name="q6"/> \(2\sqrt{2}\)</label>
+                        </li>
+                        
+                        <li>
+                            <label><input id="q6-r2" type="radio" name="q6"/> \(\sqrt{2}\)</label>
+                        </li>
+                        
+                       <li>
+                        <label><input id="q6-r3" type="radio" name="q6" data-correct/> \(\dfrac{1}{\sqrt{2}}\)</label>
+                       </li>
+                        
+                       <li>
+                        <label><input id="q6-r2" type="radio" name="q6"/> \(\dfrac{1}{2\sqrt{2}}\)</label>
+                       </li>
+                        
+                    </ul>
+                </li>
+                <li class="question" data-points="1" data-type="radio">
+                    <p>
+                        <strong>Question :</strong>
+                        Quelle est la valeur exacte de \(\cos(30°)\) ? 
+                        <br><strong><em>Une</em> seule <em>réponse</em> est <em>correcte</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label><input id="q7-r1" type="radio" name="q7"/> \(2\sqrt{3}\)</label>
+                        </li>
+                        
+                        <li>
+                            <label><input id="q7-r2" type="radio" name="q7"/> \(\dfrac{2}{\sqrt{3}}\)</label>
+                        </li>
+                        
+                        <li>
+                            <label><input id="q7-r3" type="radio" name="q7" data-correct/> \(\dfrac{\sqrt{3}}{2}\)</label>
+                        </li>
+                        
+                        <li>
+                            <label><input id="q7-r2" type="radio" name="q7"/> \(\dfrac{1}{2\sqrt{3}}\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="question" data-points="1" data-type="radio">
+                    <p>
+                        <strong>Question :</strong>
+                        Quelle est la valeur exacte de \(\sin(30°)\) ? 
+                        <br><strong><em>Une</em> seule <em>réponse</em> est <em>correcte</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label><input id="q8-r1" type="radio" name="q8"/> \(2\)</label>
+                        </li>
+                        
+                        <li>
+                            <label><input id="q8-r2" type="radio" name="q8"/> \(\sqrt{2}\)</label>
+                        </li>
+                        
+                        <li>
+                            <label><input id="q8-r3" type="radio" name="q8"/> \(\dfrac{1}{\sqrt{2}}\)</label>
+                        </li>
+                        
+                        <li>
+                            <label><input id="q8-r2" type="radio" name="q8" data-correct/> \(\dfrac{1}{2}\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="question" data-points="1" data-type="radio">
+                    <p>
+                        <strong>Question :</strong>
+                        Quelle est la valeur exacte de \(\cos(60°)\) ? 
+                        <br><strong><em>Une</em> seule <em>réponse</em> est <em>correcte</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label><input id="q9-r1" type="radio" name="q9"/> \(2\)</label>
+                        </li>
+                        
+                        <li>
+                            <label><input id="q9-r2" type="radio" name="q9"/> \(\dfrac{2}{\sqrt{3}}\)</label>
+                        </li>
+                        
+                        <li>
+                            <label><input id="q9-r3" type="radio" name="q9"/> \(\dfrac{\sqrt{3}}{2}\)</label>
+                        </li>
+
+                        <li>
+                            <label><input id="q9-r2" type="radio" name="q9" data-correct/> \(\dfrac{1}{2}\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="question" data-points="1" data-type="radio">
+                    <p>
+                        <strong>Question :</strong>
+                        Quelle est la valeur exacte de \(\sin(60°)\) ? 
+                        <br><strong><em>Une</em> seule <em>réponse</em> est <em>correcte</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label for=""><input id="q10-r1" type="radio" name="q10"/> \(2\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q10-r2" type="radio" name="q10"/> \(\dfrac{2}{\sqrt{3}}\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q10-r3" type="radio" name="q10" data-correct/> \(\dfrac{\sqrt{3}}{2}\)</label>
+                        </li>
+
+                        <li>
+                            <label for=""><input id="q10-r2" type="radio" name="q10"/> \(\dfrac{1}{2}\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+            </ol>
+           </article>
+           <article id="remarkable">
+            <h2>Identités remarquables</h2>
+            <ol start="11">
+                <li class="question" data-points="4" data-type="checkbox">
+                    <p> 
+                        <strong>Question :</strong>
+                        Quelles sont les expressions égales à \((a + b)^2\) ?
+                        <br><strong><em>Plusieurs réponses</em> sont <em>correctes</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label for=""><input id="q11-r1" type="checkbox" name="q11" data-correct/> \((a + b)(a + b)\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q11-r2" type="checkbox" name="q11" data-correct/> \(a(a + b) + (a + b)b\)</label>
+                        </li>
+                       
+                        <li>
+                            <label for=""><input id="q11-r3" type="checkbox" name="q11" data-correct/> \(a^2 + b^2 + 2ab\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q11-r2" type="checkbox" name="q11" data-correct/> \(a^2 + ab + ba + b^2\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="question" data-points="4" data-type="checkbox">
+                    <p> 
+                        <strong>Question :</strong>
+                        Quelles sont les expressions égales à \((a - b)^2\) ?
+                        <br><strong><em>Plusieurs réponses</em> sont <em>correctes</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label for=""><input id="q12-r1" type="checkbox" name="q12" data-correct/> \((a - b)(a - b)\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q12-r2" type="checkbox" name="q12" data-correct/> \(a(a - b) - (a - b)b\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q12-r3" type="checkbox" name="q12" data-correct/> \(a^2 + b^2 - 2ab\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q12-r2" type="checkbox" name="q12" data-correct/> \(a^2 - ab - ba + b^2\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="question" data-points="3" data-type="checkbox">
+                    <p> 
+                        <strong>Question :</strong>
+                        Quelles sont les expressions égales à \((a + b)(a - b)\) ?
+                        <br><strong><em>Plusieurs réponses</em> sont <em>correctes</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label for=""><input id="q13-r1" type="checkbox" name="q13" data-correct/> \(a^2 - b^2\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q13-r2" type="checkbox" name="q13" data-correct/> \(a(a - b) + (a - b)b\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q13-r3" type="checkbox" name="q13"/> \(a^2 + b^2\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q13-r2" type="checkbox" name="q13" data-correct/> \(a^2 - ab + ba - b^2\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="question" data-points="4" data-type="checkbox">
+                    <p> 
+                        <strong>Question :</strong>
+                        Quelles sont les expressions égales à \((a + b)^2 - (a - b)^2\) ?
+                        <br><strong><em>Plusieurs réponses</em> sont <em>correctes</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label for=""><input id="q14-r1" type="checkbox" name="q14" data-correct/> \(\left[(a + b) + (a - b)\right]\left[(a + b) - (a - b)\right]\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q14-r2" type="checkbox" name="q14" data-correct/> \(2a\times 2b\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q14-r3" type="checkbox" name="q14" data-correct/> \(4ab\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q14-r2" type="checkbox" name="q14" data-correct/> \(a^2 + 2ab + b^2 - a^2 + 2ab - b^2\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="question" data-points="2" data-type="checkbox">
+                    <p> 
+                        <strong>Question :</strong>
+                        Quelles sont les expressions égales à \((a + b)^2 + (a - b)^2\) ?
+                        <br><strong><em>Plusieurs réponses</em> sont <em>correctes</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label for=""><input id="q15-r1" type="checkbox" name="q15" data-correct/> \(2(a^2 + b^2)\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q15-r2" type="checkbox" name="q15" data-correct/> \(2a^2 + 2b^2\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q15-r3" type="checkbox" name="q15"/> \(2(a^2 + b^2 + ab)\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q15-r2" type="checkbox" name="q15"/> \(2(a^2 + b^2 - ab)\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="question" data-points="3" data-type="checkbox">
+                    <p> 
+                        <strong>Question :</strong>
+                        Quelles sont les expressions égales à \((a + b)^2(a - b)^2\) ?
+                        <br><strong><em>Plusieurs réponses</em> sont <em>correctes</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label for=""><input id="q16-r1" type="checkbox" name="q16"/> \((a^2 + b^2)^2\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q16-r2" type="checkbox" name="q16" data-correct/> \((a^2 - b^2)^2\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q16-r3" type="checkbox" name="q16" data-correct/> \(a^4 - 2(ab)^2 + b^4\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q16-r2" type="checkbox" name="q16" data-correct/> \(a^4 + b^4 - 2a^2b^2\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+            </ol>
+           </article>
+           <article id="functions">
+            <h2>Fonctions</h2>
+            <ol start="17">
+                <li class="question" data-points="1" data-type="radio">
+                    <p> 
+                        <strong>Question :</strong>
+                        Quelle expression représente le périmètre d'un triangle équilatéral en fonction de son côté de longueur \(x\) ?
+                        <br><strong><em>Une</em> seule <em>réponses</em> est <em>correcte</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label for=""><input id="q17-r1" type="radio" name="q17"/> \(f(x) = \dfrac{\sqrt{3}}{4}x\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q17-r2" type="radio" name="q17" data-correct/> \(f(x) = 3x\)</label>
+                        </li>
+                       
+                        <li>
+                            <label for=""><input id="q17-r3" type="radio" name="q17"/> \(f(x) = x^3\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q17-r2" type="radio" name="q17"/> \(f(x) = \dfrac{\sqrt{3}}{2}x\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="question" data-points="4" data-type="checkbox">
+                    <p> 
+                        <strong>Question :</strong>
+                        Quelle expression représente la hauteur d'un triangle équilatéral en fonction de son côté de longueur \(x\) ?
+                        <br><strong><em>Plusieurs réponses</em> sont <em>correctes</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label for=""><input id="q18-r1" type="checkbox" name="q18" data-correct/> \(f(x) = \dfrac{\sqrt{3}}{2}x\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q18-r2" type="checkbox" name="q18" data-correct/> \(f(x) = \dfrac{x\sqrt{3}}{2}\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q18-r3" type="checkbox" name="q18" data-correct/> \(f(x) = x\sqrt{\dfrac{3}{4}}\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q18-r2" type="checkbox" name="q18" data-correct/> \(f(x) = \dfrac{x\sqrt{3}}{\sqrt{4}}\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="question" data-points="1" data-type="radio">
+                    <p> 
+                        <strong>Question :</strong>
+                        Quelle expression représente l'aire d'un triangle équilatéral en fonction de son côté de longueur \(x\) ?
+                        <br><strong><em>Une</em> seule  réponse est <em>correcte</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label for=""><input id="q19-r1" type="radio" name="q19"/> \(f(x) = \dfrac{\sqrt{3}}{2}x^2\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q19-r2" type="radio" name="q19"/> \(f(x) = \dfrac{\sqrt{3}}{4}x\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q19-r3" type="radio" name="q19" data-correct/> \(f(x) = \dfrac{\sqrt{3}}{4}x^2\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q19-r2" type="radio" name="q19"/> \(f(x) = \dfrac{\sqrt{3}}{8}x^2\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="question" data-points="4" data-type="checkbox">
+                    <p> 
+                        <strong>Question :</strong>
+                        On considère la fonction d'expression \(f(x) = x^2\).
+                        Quels sont les antécédents de 49 par la fonction \(f\) ?
+                        <br><strong><em>Plusieurs réponses</em> sont <em>correctes</em>.</strong>
+                    </p>
+                    <ul class="options">
+
+                        <li>
+                            <label for=""><input id="q20-r1" type="checkbox" name="q20" data-correct/> \(-\sqrt{49}\) et \(\sqrt{49}\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q20-r2" type="checkbox" name="q20" data-correct/> \(-7\) et \(7\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q20-r3" type="checkbox" name="q20"/> \(-2401\) et \(2401\)</label>
+                        </li>
+                        
+                        <li>
+                            <label for=""><input id="q20-r2" type="checkbox" name="q20"/> \((-49)^2\) et \(49^2\)</label>
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+            </ol>
+           </article>
+        </section>
+
+        <button id="submit-btn">Soumettre</button>
+        <div id="score-details">
+            <p id="score-display"></p>
+            <ul id="question-points"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - <strong>Didaskalos Manthanon</strong>, <em>Apprenez à devenir un maître apprenant</em></p>
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>
