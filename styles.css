@@ -53,6 +53,7 @@
 
   ol li {
     list-style-type: upper-roman;
+    margin-left: 2%;
   }
 
   input {
